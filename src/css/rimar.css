@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 4, 2016, 3:03:43 PM
+    Author     : Ricardo
+*/
+
+.add-receipt-button{
+    -fx-background-color: transparent;
+    -fx-graphic: url("../images/add_list.png");
+    -fx-border-color: gray;
+    -fx-border-radius: 10px;
+    -fx-border-width: 1px;
+}
+
+.manage-drivers-button{
+    -fx-background-color: transparent;
+    -fx-graphic: url("../images/edit_user.png");
+    -fx-border-color: gray;
+    -fx-border-radius: 10px;
+    -fx-border-width: 1px;
+}
+
+.view-statistics{
+    -fx-background-color: transparent;
+    -fx-graphic: url("../images/statistics.png");
+    -fx-border-color: gray;
+    -fx-border-radius: 10px;
+    -fx-border-width: 1px;
+}
+
+.manage-user{
+    -fx-background-color: transparent;
+    -fx-graphic: url("../images/group.png");
+    -fx-border-color: gray;
+    -fx-border-radius: 10px;
+    -fx-border-width: 1px;
+}
+
+.manage-servicesr{
+    -fx-background-color: transparent;
+    -fx-graphic: url("../images/engineering.png");
+    -fx-border-color: gray;
+    -fx-border-radius: 10px;
+    -fx-border-width: 1px;
+}
+
+.manage-replace{
+    -fx-background-color: transparent;
+    -fx-graphic: url("../images/product.png");
+    -fx-border-color: gray;
+    -fx-border-radius: 10px;
+    -fx-border-width: 1px;
+}
+
+.manage-vehicles{
+    -fx-background-color: transparent;
+    -fx-graphic: url("../images/automotive.png");
+    -fx-border-color: gray;
+    -fx-border-radius: 10px;
+    -fx-border-width: 1px;
+}
