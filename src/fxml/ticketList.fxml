@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="900.0" stylesheets="@../css/JMetroLightTheme.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TicketListController">
+   <children>
+      <TableView fx:id="tlist" layoutX="39.0" layoutY="74.0" prefHeight="277.0" prefWidth="532.0" stylesheets="@../../../../../Desktop/jfxtras-styles-master/src/jmetro8/JMetroLightTheme.css" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="80.0">
+        <columns>
+          <TableColumn fx:id="num" prefWidth="88.0" resizable="false" text="N°" />
+          <TableColumn fx:id="pneto" prefWidth="73.0" resizable="false" text="Peso Neto" />
+            <TableColumn fx:id="proc" prefWidth="83.0" resizable="false" text="Desde" />
+            <TableColumn fx:id="dest" prefWidth="63.0" resizable="false" text="Hasta" />
+            <TableColumn fx:id="precio" prefWidth="73.0" resizable="false" text="Precio" />
+            <TableColumn fx:id="emp" prefWidth="73.0" resizable="false" text="Empresa" />
+        </columns>
+      </TableView>
+      <Label layoutX="30.0" layoutY="14.0" text="Chofer" />
+      <ComboBox layoutX="30.0" layoutY="39.0" prefWidth="150.0" />
+      <GridPane layoutX="5.0" layoutY="371.0" prefHeight="52.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0">
+        <columnConstraints>
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button mnemonicParsing="false" prefWidth="95.0" text="Añadir Ticket">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </Button>
+            <Button layoutX="40.0" layoutY="11.0" mnemonicParsing="false" prefWidth="95.0" text="Eliminar" GridPane.columnIndex="1">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </Button>
+            <Button layoutX="160.0" layoutY="11.0" mnemonicParsing="false" prefWidth="95.0" text="Editar" GridPane.columnIndex="2" />
+            <Button layoutX="280.0" layoutY="11.0" mnemonicParsing="false" prefWidth="95.0" text="Detalles" GridPane.columnIndex="3" />
+            <Button layoutX="400.0" layoutY="11.0" mnemonicParsing="false" prefWidth="95.0" text="Imprimir" GridPane.columnIndex="4" />
+         </children>
+      </GridPane>
+      <Label layoutX="212.0" layoutY="13.0" text="Fecha" />
+      <DatePicker layoutX="212.0" layoutY="39.0" />
+      <Label layoutX="459.0" layoutY="13.0" text="Material" />
+      <ComboBox layoutX="459.0" layoutY="39.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

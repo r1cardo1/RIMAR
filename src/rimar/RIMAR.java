@@ -24,6 +24,8 @@ public class RIMAR extends Application {
         Scene scene = new Scene(root);
         
         stage.setScene(scene);
+        stage.setMinWidth(700);
+        stage.setMinHeight(600);
         stage.show();
     }
 
